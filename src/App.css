@@ -24,14 +24,13 @@
 
 .sources {
   height: 90vh;
-  overflow: auto;
+  overflow-y: scroll;
   width: 22%;
   margin-top: 10px;
   margin-left: 10px;
 }
 .sources h4 {
   margin-bottom: 10px;
-  color: grey;
 }
 
 .news {
@@ -40,25 +39,33 @@
 }
 .news .articles {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .news .articles .article {
   margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #dadce0;
+  padding: 15px;
+  border: 1px solid #f7f7f7;
   border-radius: 5px;
   margin-right: 20px;
+  background-color: #f7f7f7;
+  width: 45%;
 }
 .news .articles .article .author {
   margin-right: 5px;
   margin-top: 10px;
-  color: grey;
+  color: #5ca86a;
 }
 .news .articles .article .story {
   margin-top: 10px;
 }
 .news .articles .article img {
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
+}
+.news .articles .article a {
+  color: #4688b5;
 }
 
 .choose-src {
