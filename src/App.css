@@ -44,7 +44,7 @@
 .news .articles .article {
   margin-bottom: 20px;
   padding: 10px;
-  border: solid 1px grey;
+  border: 1px solid #dadce0;
   border-radius: 5px;
 }
 .news .articles .article .author {
@@ -54,7 +54,7 @@
   margin-top: 10px;
 }
 .news .articles .article img {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
 }
 
