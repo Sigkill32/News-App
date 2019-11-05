@@ -23,44 +23,46 @@
 }
 
 .sources {
+  h4 {
+    margin-bottom: 10px;
+    color: grey;
+  }
   height: 90vh;
   overflow: auto;
   width: 22%;
   margin-top: 10px;
   margin-left: 10px;
 }
-.sources h4 {
-  margin-bottom: 10px;
-  color: grey;
-}
 
 .news {
   width: 75%;
   overflow: auto;
-}
-.news .articles {
-  margin-top: 20px;
-}
-.news .articles .article {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: solid 1px grey;
-  border-radius: 5px;
-}
-.news .articles .article .author {
-  margin-right: 5px;
-}
-.news .articles .article .story {
-  margin-top: 10px;
-}
-.news .articles .article img {
-  width: 100%;
-  margin-top: 10px;
+
+  .articles {
+    margin-top: 20px;
+
+    .article {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: solid 1px grey;
+      border-radius: 5px;
+      .author {
+        // float: right;
+        margin-right: 5px;
+      }
+      .story {
+        margin-top: 10px;
+      }
+
+      img {
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  }
 }
 
 .choose-src {
   width: 100%;
   text-align: center;
 }
-
-/*# sourceMappingURL=App.css.map */
